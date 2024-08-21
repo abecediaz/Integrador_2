@@ -4,23 +4,18 @@
     box-sizing: border-box;
 }
 
-body {
+/* INDEX */
+
+#index {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, black 100%),
-    url('http://localhost:63342/integrador_2/assets/img/body.jpg') no-repeat top;
+    url('/assets/img/body_index.jpg') no-repeat top;
     background-size: cover;
     background-attachment: fixed;
     background-color: black;
 }
 
-button {
-    color: lightgrey !important;
-}
-
-div {
-    display: flex;
-}
-
 .container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -31,7 +26,7 @@ div {
     padding: 30px;
 }
 
-.card {
+#whatweoffer .card {
     margin: 15px;
 }
 
@@ -39,25 +34,13 @@ div {
     text-transform: uppercase;
 }
 
-.navbar-brand {
-    color: lightgrey !important;
-}
-
-.navbar-brand span {
-    color: goldenrod;
-}
-
-.nav-link, .footer-text, footer a, .card-text{
+.navbar-brand, .nav-link, .footer-text, header button, footer a, .card-text, .text-active, .extension{
     color: antiquewhite !important;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
 
-.nav-link.active {
+.nav-link.active, .navbar-brand span, .titles, .subtitles, .card-price, .period, .extension b {
     color: goldenrod !important;
-}
-
-.titles, .subtitles {
-    color: goldenrod;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
 
@@ -84,6 +67,73 @@ footer a:hover, .nav-link:hover {
     filter: brightness(80%);
 }
 
-.btn {
+#whatweoffer .btn {
     margin-bottom: 100px;
+}
+
+/* FORM */
+
+#form {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, black 100%),
+    url('/assets/img/body_form.jpg') no-repeat top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    color: dimgrey;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.pricing .card-price {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.pricing .period {
+    font-size: 0.8rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.pricing .extension {
+    font-size: 0.8rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.pricing .text-active {
+    margin-bottom: 0.7rem;
+    list-style: url('/assets/img/check.svg');
+}
+
+.pricing .text-inactive {
+    color: dimgrey;
+    margin-bottom: 0.7rem;
+    list-style: url('/assets/img/x.svg');
+}
+
+.container-form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
