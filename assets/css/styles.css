@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, black 100%),
+    url('http://localhost:63342/integrador_2/assets/img/body.jpg') no-repeat top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+button {
+    color: lightgrey !important;
+}
+
+div {
+    display: flex;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    justify-content: center;
+    padding: 30px;
+}
+
+.card {
+    margin: 15px;
+}
+
+.navbar-brand, .nav-link, .titles {
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    color: lightgrey !important;
+}
+
+.navbar-brand span {
+    color: goldenrod;
+}
+
+.nav-link, .footer-text, footer a, .card-text{
+    color: antiquewhite !important;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.nav-link.active {
+    color: goldenrod !important;
+}
+
+.titles, .subtitles {
+    color: goldenrod;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.titles {
+    font-weight: 900;
+}
+
+.footer-text {
+    font-size: 13px;
+    text-align: center;
+    margin: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer a:hover, .nav-link:hover {
+    opacity: 0.7;
+}
+
+.card-img-top {
+    filter: brightness(80%);
+}
+
+.btn {
+    margin-bottom: 100px;
+}
