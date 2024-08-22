@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Prices | BlockBusted</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/assets/img/logo.svg"/>
         <link rel="stylesheet" href="../assets/css/styles.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
@@ -18,7 +19,7 @@
 
                     <div>
                         <h1 class="navbar-brand">
-                            <strike>BLOCK</strike><span>BUSTED</span>
+                            BLOCK<span>BUSTED</span>
                         </h1>
                     </div>
 
@@ -28,6 +29,7 @@
                                 <a class="nav-link" aria-current="page" href="index.html">HOME</a>
                                 <a class="nav-link" href="index.html#whatweoffer">ABOUT</a>
                                 <a class="nav-link active" href="#">PRICES</a>
+                                <a class="nav-link" href="#combo">COMBO</a>
                                 <a class="nav-link" href="catalogue.html">CATALOGUE</a>
                             </div>
                         </div>
@@ -47,9 +49,9 @@
                             <div class="card-body">
                                 <h5 class="card-title">Classic</h5>
                                 <div class="price">
-                                    <h6 class="card-price">$14,33<span class="period"> / 3 months</span></h6>
-                                    <h6 class="extension">...or for <b>$13,33</b> more, get 6 months total</h6>
-                                    <h6 class="extension">...or for <b>$35,33</b> more, get 12 months total</h6>
+                                    <h6 class="card-price">$14,99<span class="period"> / 3 months</span></h6>
+                                    <h6 class="extension">...or for <b>$13</b> more, get 6 months total</h6>
+                                    <h6 class="extension">...or for <b>$35</b> more, get 12 months total</h6>
                                 </div>
                                 <hr>
                                 <ul>
@@ -68,9 +70,9 @@
                             <div class="card-body">
                                 <h5 class="card-title">Standard</h5>
                                 <div class="price">
-                                    <h6 class="card-price">$22,33<span class="period"> / 3 months</span></h6>
-                                    <h6 class="extension">...or for <b>$20,33</b> more, get 6 months total</h6>
-                                    <h6 class="extension">...or for <b>$57,33</b> more, get 12 months total</h6>
+                                    <h6 class="card-price">$22,99<span class="period"> / 3 months</span></h6>
+                                    <h6 class="extension">...or for <b>$20</b> more, get 6 months total</h6>
+                                    <h6 class="extension">...or for <b>$57</b> more, get 12 months total</h6>
                                 </div>
                                 <hr>
                                 <ul>
@@ -88,9 +90,9 @@
                         <div class="card bg-dark bg-opacity-50 mb-5 mb-lg-0">
                             <div class="card-body">
                                 <h5 class="card-title">Premium</h5>
-                                <h6 class="card-price">$29,33<span class="period"> / 3 months</span></h6>
-                                <h6 class="extension">...or for <b>$20,33</b> more, get 6 months total</h6>
-                                <h6 class="extension">...or for <b>$57,33</b> more, get 12 months total</h6>
+                                <h6 class="card-price">$29,99<span class="period"> / 3 months</span></h6>
+                                <h6 class="extension">...or for <b>$25</b> more, get 6 months total</h6>
+                                <h6 class="extension">...or for <b>$70</b> more, get 12 months total</h6>
                                 <hr>
                                 <ul>
                                     <li class="text-active">4 device streams</li>
@@ -108,72 +110,65 @@
             </div>
         </section>
 
-        <section class="container container-fluid">
-            <div class="row col-3">
-                <form class="needs-validatio">
+        <hr>
 
-                    <div class="container" style="background-color: red">
-                        <label for="validationTooltip01" class="form-label">Plan</label>
-                        <select class="form-select" id="validationTooltip01" required>
-                            <option selected disabled value="">Type</option>
-                            <option>Classic</option>
-                            <option>Standard</option>
-                            <option>Premium</option>
-                        </select>
-                        <div class="invalid-tooltip">
-                            Please select a valid state.
-                        </div>
-                    </div>
-
-                    <div class="container" style="background-color: blue">
-                        <label for="validationTooltip02" class="form-label">Period</label>
-                        <select class="form-select" id="validationTooltip02" required>
-                            <option selected disabled value="">Period</option>
-                            <option>3 months</option>
-                            <option>6 months</option>
-                            <option>12 months</option>
-                        </select>
-                        <div class="invalid-tooltip">
-                            Please select a valid state.
-                        </div>
-                    </div>
-
-                    <div class="container" style="background-color: violet">
-                        <label for="validationTooltipEmail" class="form-label">email</label>
-                        <div class="input-group has-validation">
-                            <input type="email" class="form-control" id="validationTooltipEmail" aria-describedby="validationTooltipEmailPrepend" required placeholder="username@gmail.com">
-                            <div class="invalid-tooltip">
-                                Please insert a valid email.
-                            </div>
-                        </div>
-                    </div>
-                </form>
+        <section id="combo">
+            <div class="container container-fluid">
+                <h4 class="titles">Select your combo and start today!</h4>
             </div>
+        </section>
 
-            <div class="col-3" style="background-color: green">
-                aaaaaaaaaaaa
-            </div>
+        <section class="container col-lg-4 col-md-5 col-10">
+            <form class="needs-validation">
+                <div class="container">
+                    <label for="plan" class="form-label"></label>
+                    <select id="plan" class="border-dark bg-warning bg-opacity-75 form-select" required>
+                        <option selected disabled value="">Select a plan...</option>
+                        <option>Classic</option>
+                        <option>Standard</option>
+                        <option>Premium</option>
+                    </select>
+                    <div class="invalid-tooltip">
+                        Please select a valid state.
+                    </div>
+                </div>
+
+                <div class="container">
+                    <label for="period" class="form-label"></label>
+                    <select id="period" class="border-dark bg-warning bg-opacity-75 form-select" required>
+                        <option selected disabled value="">Select a period...</option>
+                        <option>3 months</option>
+                        <option>6 months</option>
+                        <option>12 months</option>
+                    </select>
+                    <div class="invalid-tooltip">
+                        Please select a valid state.
+                    </div>
+                </div>
+            </form>
+
+            <div id="total-price" class="border-dark container">Total</div>
 
             <div class="container container-fluid">
-                <button class="btn btn-outline-warning" type="submit">Calculate</button>
+                <button id="calculation" class="btn btn-outline-warning">Calculate</button>
             </div>
 
         </section>
 
-        <div class="container">
+        <div class="container container-fluid">
             <footer>
                 <ul class="list-inline">
                     <li class="list-inline-item"><a href="index.html">Home</a></li>
                     <li class="list-inline-item"><a href="index.html#whatweoffer">About</a></li>
                     <li class="list-inline-item"><a href="#">Prices</a></li>
+                    <li class="list-inline-item"><a href="#combo">Combo</a></li>
                     <li class="list-inline-item"><a href="catalogue.html">Catalogue</a></li>
                 </ul>
                 <p class="footer-text">BlockBusted © 2024</p>
             </footer>
         </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/script_form.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     </body>
